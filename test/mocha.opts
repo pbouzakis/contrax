@@ -1,0 +1,5 @@
+--reporter spec
+--require test/setup.js
+--timeout 10000ms
+--slow 100000ms
+--ui bdd

@@ -1,0 +1,35 @@
+{
+  "name": "contrax",
+  "version": "0.0.0",
+  "description": "Determine interfaces a module depends on.",
+  "main": "lib/index.js",
+  "bin": {
+    "contrax": "bin/contrax.js"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbouzakis/contrax.git"
+  },
+  "keywords": [
+    "interface",
+    "SOLID",
+    "program to contract"
+  ],
+  "author": "pbo <dev@paulbouzakis.com> (http://paulbouzakis.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbouzakis/contrax/issues"
+  },
+  "homepage": "https://github.com/pbouzakis/contrax",
+  "dependencies": {
+    "esprima": "^1.2.2",
+    "estraverse": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
